@@ -1,4 +1,4 @@
-const path = "/bautizo/img/fullsize";
+const path = "/boda-ey/img/fullsize";
 
 export const slides = [
   {

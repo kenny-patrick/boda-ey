@@ -10,14 +10,14 @@ export default function BibleVerse() {
       paddingBottom="24px"
     >
       <Typography>
-        "Que mi hijo Te siga a Ti, Dios, y Te tema y guarde Tus mandamientos y
-        escuche Tu voz. Que él Te Sirva y sea fiel a Ti."
+        "Grábame como un sello sobre tu corazón; llévame como una marca sobre tu
+        brazo. Fuerte es el amor, como la muerte..."
       </Typography>
-      <Typography>Deuteronomio 13:4</Typography>
+      <Typography>Cantares 8:6</Typography>
       <Grid item xs={6} md={6} marginTop="12px">
         <Grid item xs={12} md={12}>
           <img
-            src="/bautizo/img/dove.png"
+            src="/boda-ey/img/dove.png"
             alt="Event Image"
             style={{ maxWidth: "25%", height: "auto" }}
           />

@@ -11,7 +11,7 @@ export default function Intro() {
     }
   });
 
-  const mainText = "#d4af37";
+  const mainText = "#37d48bff";
   const namesFont = createTheme({
     typography: {
       fontFamily: ["Norican", "sans-serif"].join(","),
@@ -32,13 +32,13 @@ export default function Intro() {
       paddingBottom="24px"
     >
       <ThemeProvider theme={ourWeddingFont}>
-        <Typography variant="h4">Mi Bautizo</Typography>
+        <Typography variant="h4">Nuestra Boda</Typography>
       </ThemeProvider>
 
       <ThemeProvider theme={namesFont}>
-        <Typography variant="h2">Angelica</Typography>
+        <Typography variant="h2">Eleazar</Typography>
         <Typography variant="h2">&</Typography>
-        <Typography variant="h2">Edith</Typography>
+        <Typography variant="h2">Yesi</Typography>
       </ThemeProvider>
 
       <Box
@@ -46,7 +46,7 @@ export default function Intro() {
         paddingTop="12px"
         sx={{ maxWidth: { xs: 350, md: 500 } }}
         alt="Angelica & Edith"
-        src="/bautizo/img/thumbnail/071A6494.jpg"
+        src="/boda-ey/img/thumbnail/071A6494.jpg"
       />
     </Box>
   );

@@ -11,7 +11,7 @@ export default function Date() {
         <Grid item xs={6} md={6}>
           <Grid item xs={12} md={12}>
             <img
-              src="/bautizo/img/church.png"
+              src="/boda-ey/img/church.png"
               alt="Event Image"
               style={{ maxWidth: "50%", height: "auto" }}
             />
@@ -27,7 +27,7 @@ export default function Date() {
         <Grid item xs={6} md={6}>
           <Grid item xs={12} md={12}>
             <img
-              src="/bautizo/img/balloons.png"
+              src="/boda-ey/img/balloons.png"
               alt="Event Image"
               style={{ maxWidth: "50%", height: "auto" }}
             />

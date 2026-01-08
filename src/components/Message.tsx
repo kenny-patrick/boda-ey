@@ -13,7 +13,7 @@ export default function Message() {
         component="img"
         sx={{ maxWidth: "50%" }}
         alt="Logo with A & E initials"
-        src="/bautizo/img/logo.png"
+        src="/boda-ey/img/logo.png"
         marginBottom="-36px"
       />
       <Typography variant="h5">¡Te esperamos!</Typography>

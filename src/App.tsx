@@ -68,7 +68,7 @@ export default function App() {
   return (
     <Container maxWidth="sm" sx={{ paddingBottom: "36px" }}>
       <ThemeProvider theme={customFontTheme}>
-        <Border imgSrc={"/bautizo/img/border/floral_top.png"} />
+        <Border imgSrc={"/boda-ey/img/border/floral_top.png"} />
         <Intro />
         <Audio />
         <BibleVerse />
@@ -77,7 +77,7 @@ export default function App() {
         <Timer />
         <Photos />
         <Message />
-        <Border imgSrc={"/bautizo/img/border/floral_bottom.png"} />
+        <Border imgSrc={"/boda-ey/img/border/floral_bottom.png"} />
       </ThemeProvider>
     </Container>
   );

@@ -1,4 +1,4 @@
-const path = "/bautizo/img/thumbnail";
+const path = "/boda-ey/img/thumbnail";
 
 export const thumbnails = [
   {

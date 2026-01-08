@@ -17,7 +17,7 @@ export default function NavBar() {
             component="img"
             sx={{ width: "45px" }}
             alt="Logo with K & E initials without wedding date"
-            src="/bautizo/img/logo-nodate.png"
+            src="/boda-ey/img/logo-nodate.png"
           />
         </Toolbar>
       </AppBar>
