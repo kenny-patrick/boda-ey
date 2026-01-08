@@ -12,9 +12,10 @@ import BibleVerse from "./components/BibleVerse";
 import Border from "./components/Border";
 import Audio from "./components/Audio";
 import Message from "./components/Message";
+import Paper from "@mui/material/Paper";
 
 export default function App() {
-  const mainText = "#d4af37";
+  const mainText = "#576b30";
   const bodyText = "#4d4637";
 
   const customFontTheme = createTheme({
@@ -30,6 +31,10 @@ export default function App() {
         main: "#3f50b5",
         dark: "#002884",
         contrastText: "#fff"
+      },
+      background: {
+        default: "#fff",
+        paper: "#eff0eb"
       }
     },
     typography: {
@@ -66,18 +71,20 @@ export default function App() {
   });
 
   return (
-    <Container maxWidth="sm" sx={{ paddingBottom: "36px" }}>
+    <Container maxWidth="md" sx={{ paddingBottom: "36px" }}>
       <ThemeProvider theme={customFontTheme}>
-        <Border imgSrc={"/boda-ey/img/border/floral_top.png"} />
-        <Intro />
-        <Audio />
-        <BibleVerse />
-        <Parents />
-        <Date />
-        <Timer />
-        <Photos />
-        <Message />
-        <Border imgSrc={"/boda-ey/img/border/floral_bottom.png"} />
+        <Paper>
+          <Border imgSrc={"/boda-ey/img/border/floral_top.png"} />
+          <Intro />
+          <Audio />
+          <BibleVerse />
+          <Parents />
+          <Date />
+          <Timer />
+          <Photos />
+          <Message />
+          <Border imgSrc={"/boda-ey/img/border/floral_bottom.png"} />
+        </Paper>
       </ThemeProvider>
     </Container>
   );

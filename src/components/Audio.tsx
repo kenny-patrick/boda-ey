@@ -11,12 +11,7 @@ export default function Audio() {
       alignItems="center"
       paddingBottom="24px"
     >
-      <AudioPlayer
-        preload="none"
-        width="90%"
-        volume={volume}
-        src={src}
-      />
+      <AudioPlayer preload="none" width="90%" volume={volume} src={src} />
     </Box>
   );
 }
