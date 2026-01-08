@@ -6,7 +6,7 @@ export default function Date() {
   return (
     <Box sx={{ flexGrow: 1 }} textAlign="center">
       <Typography variant="h5">Fecha del evento</Typography>
-      <Typography variant="body1">28 de septiembre del 2024</Typography>
+      <Typography variant="body1">31 de enero del 2026</Typography>
       <Grid container spacing={2} paddingTop="12px" paddingBottom="12px">
         <Grid item xs={6} md={6}>
           <Grid item xs={12} md={12}>
