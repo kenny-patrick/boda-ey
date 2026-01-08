@@ -44,7 +44,7 @@ export default function Intro() {
       <Box
         component="img"
         paddingTop="12px"
-        sx={{ maxWidth: { xs: 350, md: 500 } }}
+        sx={{ maxWidth: { xs: 300, md: 500 } }}
         alt="Angelica & Edith"
         src="/boda-ey/img/thumbnail/071A6494.jpg"
       />
