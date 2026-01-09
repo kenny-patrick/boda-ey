@@ -8,7 +8,7 @@ import {
 import Countdown, { CountdownRendererFn } from "react-countdown";
 
 export default function Timer() {
-  const mainText = "#576b30";
+  const mainText = "#acc077";
   const countdownTheme = createTheme({
     typography: {
       fontFamily: ["Playfair Display Variable", "serif"].join(","),
