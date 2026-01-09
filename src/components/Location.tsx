@@ -1,13 +1,11 @@
 import { Box, Button, Card, Typography } from "@mui/material";
-import { useTranslation } from "react-i18next";
 
 export default function Location() {
-  const { t } = useTranslation();
-  const mapsUrl = "https://maps.app.goo.gl/6xRniWFUR7vAYqhZ8";
+  const mapsUrl = "https://maps.app.goo.gl/LaFS8h4Hru5xZSAN6";
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Typography variant="h5">{t("locationHeader")}</Typography>
+      <Typography variant="h5">Ubicación</Typography>
 
       <Card
         sx={{
@@ -18,7 +16,7 @@ export default function Location() {
         }}
       >
         <Box display="flex" flexDirection="column" alignItems="center">
-          <Typography>Salón & Jardín Las Flores</Typography>
+          <Typography>Salón Imperial</Typography>
           <Typography variant="subtitle1">
             Boulevard Las Bugambilias #801
           </Typography>
@@ -40,7 +38,7 @@ export default function Location() {
             variant="contained"
             sx={{ marginTop: "12px" }}
           >
-            {t("mapButton")}
+            Ver Mapa
           </Button>
         </Box>
       </Card>

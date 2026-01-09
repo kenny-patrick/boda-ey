@@ -3,7 +3,7 @@ import { Container, ThemeProvider, createTheme } from "@mui/material";
 import Date from "./components/Date";
 // import NavBar from "./components/NavBar";
 import Photos from "./components/Photos";
-// import Location from "./components/Location";
+import Location from "./components/Location";
 import Parents from "./components/Parents";
 import Intro from "./components/Intro";
 import Timer from "./components/Timer";
@@ -80,6 +80,7 @@ export default function App() {
           <BibleVerse />
           <Parents />
           <Date />
+          <Location />
           <Timer />
           <Photos />
           <Message />

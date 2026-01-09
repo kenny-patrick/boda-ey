@@ -17,11 +17,9 @@ export default function Date() {
             />
           </Grid>
           <Typography variant="h5">MISA</Typography>
-          <Typography variant="body1">
-            Iglesia de Ranchería Laguna Larga
-          </Typography>
+          <Typography variant="body1">Iglesia de Guadalupe</Typography>
           <Typography variant="body1" style={{ fontSize: "24px" }}>
-            9 am
+            3 pm
           </Typography>
         </Grid>
         <Grid item xs={6} md={6}>
@@ -32,12 +30,10 @@ export default function Date() {
               style={{ maxWidth: "50%", height: "auto" }}
             />
           </Grid>
-          <Typography variant="h5">RECEPCION</Typography>
-          <Typography variant="body1">
-            Casa del Sr. Manuel Aguilar Espinosa
-          </Typography>
+          <Typography variant="h5">RECEPCIÓN</Typography>
+          <Typography variant="body1">Salón Imperial</Typography>
           <Typography variant="body1" style={{ fontSize: "24px" }}>
-            2 pm
+            6 pm
           </Typography>
         </Grid>
       </Grid>
