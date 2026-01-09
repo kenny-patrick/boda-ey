@@ -18,7 +18,7 @@ export default function Location() {
         <Box display="flex" flexDirection="column" alignItems="center">
           <Typography>Salón Imperial</Typography>
           <Typography variant="subtitle1">
-            Tercera Avenida Pte. Nte. 72-70
+            3ra Av. Poniente Norte No.68
           </Typography>
           <Typography variant="subtitle1">Cruz Grande</Typography>
           <Typography variant="subtitle1">
