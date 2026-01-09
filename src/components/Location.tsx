@@ -18,11 +18,9 @@ export default function Location() {
         <Box display="flex" flexDirection="column" alignItems="center">
           <Typography>Salón Imperial</Typography>
           <Typography variant="subtitle1">
-            Boulevard Las Bugambilias #801
+            Tercera Avenida Pte. Nte. 72-70
           </Typography>
-          <Typography variant="subtitle1">
-            Fraccionamiento Las Flores
-          </Typography>
+          <Typography variant="subtitle1">Cruz Grande</Typography>
           <Typography variant="subtitle1">
             Comitán de Domínguez, Chiapas, México
           </Typography>
