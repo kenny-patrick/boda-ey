@@ -40,6 +40,13 @@ export default function Location() {
           </Button>
         </Box>
       </Card>
+      <Box
+        component="img"
+        paddingTop="12px"
+        sx={{ maxWidth: { xs: 300, md: 500 } }}
+        alt="Pareja tomandose las manos"
+        src="/boda-ey/img/rings.jpeg"
+      />
     </Box>
   );
 }

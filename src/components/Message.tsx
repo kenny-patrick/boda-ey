@@ -27,6 +27,14 @@ export default function Message() {
         src="/boda-ey/img/logo.PNG"
       />
       <Typography variant="h5">¡Te esperamos!</Typography>
+
+      <Box
+        component="img"
+        paddingTop="12px"
+        sx={{ maxWidth: { xs: 300, md: 500 } }}
+        alt="Pareja tomandose las manos"
+        src="/boda-ey/img/esperamos.jpeg"
+      />
     </Box>
   );
 }
