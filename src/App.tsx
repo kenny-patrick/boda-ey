@@ -82,7 +82,6 @@ export default function App() {
           <Date />
           <Location />
           <Timer />
-          <Photos />
           <Message />
           <Border imgSrc={"/boda-ey/img/border/floral_bottom.png"} />
         </Paper>

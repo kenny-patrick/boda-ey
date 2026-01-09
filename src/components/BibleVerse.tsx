@@ -17,7 +17,7 @@ export default function BibleVerse() {
       <Grid item xs={6} md={6} marginTop="12px">
         <Grid item xs={12} md={12}>
           <img
-            src="/boda-ey/img/dove.png"
+            src="/boda-ey/img/biblia.PNG"
             alt="Event Image"
             style={{ maxWidth: "25%", height: "auto" }}
           />
@@ -26,6 +26,15 @@ export default function BibleVerse() {
       <Typography marginTop="12px">
         "Con la bendición de Dios y de nuestros padres."
       </Typography>
+      <Grid item xs={6} md={6} marginTop="12px">
+        <Grid item xs={12} md={12}>
+          <img
+            src="/boda-ey/img/palomitas.PNG"
+            alt="Event Image"
+            style={{ maxWidth: "25%", height: "auto" }}
+          />
+        </Grid>
+      </Grid>
     </Box>
   );
 }

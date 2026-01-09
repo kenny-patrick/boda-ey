@@ -45,8 +45,8 @@ export default function Intro() {
         component="img"
         paddingTop="12px"
         sx={{ maxWidth: { xs: 300, md: 500 } }}
-        alt="Angelica & Edith"
-        src="/boda-ey/img/thumbnail/071A6494.jpg"
+        alt="Pareja tomandose las manos"
+        src="/boda-ey/img/hands.jpeg"
       />
     </Box>
   );
