@@ -24,9 +24,7 @@ export default function BibleVerse() {
         </Grid>
       </Grid>
       <Typography marginTop="12px">
-        "Acompáñanos a celebrar este día tan especial donde la luz de Dios se
-        encenderá en nuestro corazón para iluminar todo el camino de nuestra
-        vida."
+        "Con la bendición de Dios y de nuestros padres."
       </Typography>
     </Box>
   );
