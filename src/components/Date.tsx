@@ -33,7 +33,7 @@ export default function Date() {
           <Typography variant="h5">RECEPCIÓN</Typography>
           <Typography variant="body1">Salón Imperial</Typography>
           <Typography variant="body1" style={{ fontSize: "24px" }}>
-            6 pm
+            5 pm
           </Typography>
         </Grid>
       </Grid>
