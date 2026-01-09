@@ -3,7 +3,7 @@ import { AudioPlayer } from "react-audio-play";
 
 export default function Audio() {
   const volume = 50;
-  const src = "/boda-ey/audio/mi_julietita.mp3";
+  const src = "/boda-ey/audio/florpalida.mp3";
   return (
     <Box
       display="flex"
