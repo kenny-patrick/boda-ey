@@ -6,12 +6,12 @@ export default function Intro() {
       fontFamily: ["Playfair Display Variable", "serif"].join(","),
       h4: {
         fontWeight: 600,
-        color: "#576b30"
+        color: "#acc077"
       }
     }
   });
 
-  const mainText = "#576b30";
+  const mainText = "#acc077";
   const namesFont = createTheme({
     typography: {
       fontFamily: ["Norican", "sans-serif"].join(","),

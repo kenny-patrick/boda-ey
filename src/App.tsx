@@ -14,7 +14,7 @@ import Message from "./components/Message";
 import Paper from "@mui/material/Paper";
 
 export default function App() {
-  const mainText = "#576b30";
+  const mainText = "#acc077";
   const bodyText = "#4d4637";
 
   const customFontTheme = createTheme({
