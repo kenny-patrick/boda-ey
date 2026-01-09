@@ -2,7 +2,6 @@ import { Container, ThemeProvider, createTheme } from "@mui/material";
 
 import Date from "./components/Date";
 // import NavBar from "./components/NavBar";
-import Photos from "./components/Photos";
 import Location from "./components/Location";
 import Parents from "./components/Parents";
 import Intro from "./components/Intro";
